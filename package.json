@@ -1,0 +1,28 @@
+{
+  "name": "site-web-mdl",
+  "version": "1.0.0",
+  "description": "sito realizzato con la libreria material design lite",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alterani/mdl.git"
+  },
+  "keywords": [
+    "express",
+    "material",
+    "design",
+    "lita",
+    "html5",
+    "css3"
+  ],
+  "author": "Catering Milano SRL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alterani/mdl/issues"
+  },
+  "homepage": "https://github.com/alterani/mdl#readme"
+}
