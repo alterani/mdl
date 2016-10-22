@@ -1,4 +1,4 @@
-# Sito responsive creato con  - MDL Google Materi
+# Sito responsive creato con  - MDL Google Material Lite
 Material Design Lite di Google - Sviluppo una sito web / landing in Google Style
 
 [Sito Ufficiale MDL Google](https://getmdl.io/started/index.html)
