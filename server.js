@@ -1,11 +1,17 @@
 var express = require('express');
 var app = express();
 
-app.use('/fiveboard', express.static(__dirname + "/fiveboard"));
+app.use('/css', express.static(__dirname + "/css"));
+app.use('/img', express.static(__dirname + "/img"));
+app.use('/js', express.static(__dirname + "/js"));
 
 
 app.get('/', function(req, res){
     res.sendfile('index.html');
+});
+
+app.use(function(req, res, next){
+    res.status(404).sendfile('404.html');
 });
 
 
