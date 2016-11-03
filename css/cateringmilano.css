@@ -1,0 +1,27 @@
+/* ==========================================================================
+   CATERINGMILANO:IT Personalizzazioni adhoc per cateringmilano.it
+   ========================================================================== */
+
+.mdl-layout__header {
+    background: #fff;
+    
+
+}
+.mdl-layout__header-row .mdl-navigation__link {
+    color: #767676;
+    border-left: 1px solid #dce0e0; 
+    
+     
+}
+.mdl-layout__header .mdl-layout__drawer-button {
+    color: #767676; 
+    
+}
+.mdl-layout__header-row .mdl-layout-title {
+  color: #767676;
+  border-left: 1px solid #dce0e0; 
+  line-height: 64px;
+    padding: 0 24px;
+
+
+}
