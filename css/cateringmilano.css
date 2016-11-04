@@ -2,26 +2,102 @@
    CATERINGMILANO:IT Personalizzazioni adhoc per cateringmilano.it
    ========================================================================== */
 
+/* ==========================================================================
+   CATERINGMILANO:IT Sezione COLORI
+   ========================================================================== */
+
+:root{
+  --colore50: #FAFAFA;
+  --colore100: #F5F5F5;
+  --colore200: #EEEEEE;
+  --colore300: #E0E0E0;
+  --colore400: #BDBDBD;
+  --colore500: #9E9E9E;
+  --colore600: #757575;
+  --colore700: #616161;
+  --colore800: #424242;
+  --colore900: #212121;
+  --colore-accent: #4CAF50;
+}
+
+/* ==========================================================================
+   CATERINGMILANO:IT Sezione ICONE
+   ========================================================================== */
+
+   /* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-28 { font-size: 28px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+
 .mdl-layout__header {
     background: #fff;
     
 
 }
 .mdl-layout__header-row .mdl-navigation__link {
-    color: #767676;
+    color: var(--colore800);
     border-left: 1px solid #dce0e0; 
-    
-     
+
+}
+.mdl-layout__header-row .mdl-navigation__link:hover{
+
+  background: var(--colore100);
 }
 .mdl-layout__header .mdl-layout__drawer-button {
-    color: #767676; 
+    color: var(--colore600); 
     
 }
 .mdl-layout__header-row .mdl-layout-title {
-  color: #767676;
+  color: var(--colore600);
   border-left: 1px solid #dce0e0; 
   line-height: 64px;
-    padding: 0 24px;
-
+  padding: 0 24px;
 
 }
+
+.mdl-layout__drawer-button{
+  height:64px;
+  width: 80px;
+  line-height: 64px;
+  padding: 0;
+  margin: 0;
+}
+.mdl-layout__drawer-button:hover{
+
+  background: var(--colore100);
+}
+.mdl-layout__drawer-button:hover .material-icons{
+  color:var(--colore-accent);
+}
+
+.toolbar_icon{
+  color: var(--colore400);
+  margin-left: 0.2em;
+}
+.toolbar_arrow{
+  color: var(--colore800);
+  margin-left: 0.1em;
+}
+.toolbar_call{
+  color: var(--colore-accent);
+  margin-left: 0.1em;
+}
+.link_assistenza{
+  color: var(--colore-accent) !important;
+}
+
+
+
+
