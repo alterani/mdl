@@ -55,13 +55,30 @@
                 <a class="mdl-navigation__link" href="">Dicono di noi
                     <i class="material-icons toolbar_icon md-24">record_voice_over</i>
                 </a>
-                <a class="mdl-navigation__link link_assistenza" href="">
-                  <i class="material-icons toolbar_call md-18">call</i>
+ 
+              </nav>
+                <button id="menu_assistenza" class="mdl-button mdl-js-button">
+                 <i class="material-icons toolbar_call md-18">headset_mic</i>
                   Assistenza
                   <i class="material-icons toolbar_arrow md-24">arrow_drop_down</i>
 
-                </a>
-              </nav>
+                </button>
+                <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menu_assistenza">
+                  <li class="mdl-menu__item item_assistenza">
+                    <a class="item_assistenza" href="tel:0234343343" data-country="it">
+                      <i class="material-icons md-24 sub_menu_icona">call</i>
+                      02-89.45.675
+                    </a>
+                  </li>
+                  <li class="mdl-menu__item item_assistenza">
+                    <i class="material-icons md-24 sub_menu_icona">mail</i>
+                    Messaggio
+                  </li>
+                  <li class="mdl-menu__item item_assistenza">
+                    <i class="material-icons md-24 sub_menu_icona">help</i>
+                    FAQ
+                  </li>
+               </ul>
             </div>
           </header>
           <div class="mdl-layout__drawer">

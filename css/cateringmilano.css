@@ -25,6 +25,7 @@
    ========================================================================== */
 
    /* Rules for sizing the icon. */
+.material-icons.md-9 { font-size: 9px; }
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-28 { font-size: 28px; }
@@ -39,7 +40,9 @@
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
-
+/* ==========================================================================
+   CATERINGMILANO:IT Sezione TOOLBAR
+   ========================================================================== */
 
 .mdl-layout__header {
     background: #fff;
@@ -90,14 +93,49 @@
   color: var(--colore800);
   margin-left: 0.1em;
 }
+
+#toggle + label:after {
+  content:"Open" 
+}
+
 .toolbar_call{
   color: var(--colore-accent);
   margin-left: 0.1em;
+  padding-left: 1em;
 }
 .link_assistenza{
   color: var(--colore-accent) !important;
 }
+#menu_assistenza{
+  border-left: 1px solid #dce0e0; 
+  line-height: 64px;
+  height:64px;
+  padding: 0;
+  color: var(--colore-accent)
+ }
+.item_assistenza{
 
+  color: #000;
+  font-weight: bold;
+  display: block;
+  line-height: 64px;
+  padding: 0 24;
+  text-decoration: none;
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0;
+  opacity: .87;
+}
+
+
+
+.sub_menu_icona{
+  margin-left: 0;
+  padding-left: 0;
+  border-left: 0;
+  margin-right: 1em;
+
+}
 
 
 
