@@ -10,6 +10,19 @@ app.get('/', function(req, res){
     res.sendfile('index.html');
 });
 
+app.get('/favicon.ico', function(req, res){
+    res.sendfile('favicon.ico');
+});
+
+app.get('/apple-touch-icon.png', function(req, res){
+    res.sendfile('apple-touch-icon.png');
+});
+
+app.get('/todo.html', function(req, res){
+    res.sendfile('todo.html');
+});
+
+
 app.use(function(req, res, next){
     res.status(404).sendfile('404.html');
 });
